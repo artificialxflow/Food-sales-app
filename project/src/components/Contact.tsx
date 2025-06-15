@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Phone, Mail, MapPin, Clock, Send } from 'lucide-react';
+// import { Phone, Mail, MapPin, Clock, Send } from 'lucide-react';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -55,7 +55,8 @@ const Contact = () => {
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
                   <div className="bg-blue-100 p-3 rounded-lg">
-                    <Phone className="h-6 w-6 text-blue-600" />
+                    {/* <Phone className="h-6 w-6 text-blue-600" /> */}
+                    <span role="img" aria-label="phone">📞</span>
                   </div>
                   <div>
                     <div className="font-semibold text-gray-900">Phone</div>
@@ -66,7 +67,8 @@ const Contact = () => {
 
                 <div className="flex items-start space-x-4">
                   <div className="bg-blue-100 p-3 rounded-lg">
-                    <Mail className="h-6 w-6 text-blue-600" />
+                    {/* <Mail className="h-6 w-6 text-blue-600" /> */}
+                    <span role="img" aria-label="mail">✉️</span>
                   </div>
                   <div>
                     <div className="font-semibold text-gray-900">Email</div>
@@ -77,7 +79,8 @@ const Contact = () => {
 
                 <div className="flex items-start space-x-4">
                   <div className="bg-blue-100 p-3 rounded-lg">
-                    <MapPin className="h-6 w-6 text-blue-600" />
+                    {/* <MapPin className="h-6 w-6 text-blue-600" /> */}
+                    <span role="img" aria-label="address">📍</span>
                   </div>
                   <div>
                     <div className="font-semibold text-gray-900">Address</div>
@@ -91,7 +94,8 @@ const Contact = () => {
 
                 <div className="flex items-start space-x-4">
                   <div className="bg-blue-100 p-3 rounded-lg">
-                    <Clock className="h-6 w-6 text-blue-600" />
+                    {/* <Clock className="h-6 w-6 text-blue-600" /> */}
+                    <span role="img" aria-label="clock">⏰</span>
                   </div>
                   <div>
                     <div className="font-semibold text-gray-900">Business Hours</div>
@@ -107,7 +111,8 @@ const Contact = () => {
             {/* Map Placeholder */}
             <div className="bg-gray-200 rounded-xl h-64 flex items-center justify-center">
               <div className="text-center text-gray-500">
-                <MapPin className="h-12 w-12 mx-auto mb-2" />
+                {/* <MapPin className="h-12 w-12 mx-auto mb-2" /> */}
+                <span role="img" aria-label="map">🗺️</span>
                 <div className="font-medium">Interactive Map</div>
                 <div className="text-sm">Location: New York, NY</div>
               </div>
@@ -209,7 +214,7 @@ const Contact = () => {
                 className="w-full bg-blue-600 text-white px-8 py-4 rounded-lg hover:bg-blue-700 transition-all duration-300 transform hover:scale-105 font-semibold text-lg flex items-center justify-center space-x-2"
               >
                 <span>Send Message</span>
-                <Send className="h-5 w-5" />
+                {/* <Send className="h-5 w-5" /> */}
               </button>
             </form>
 
