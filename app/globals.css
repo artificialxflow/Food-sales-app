@@ -1,0 +1,11 @@
+/* Custom global styles */
+
+html, body {
+  text-align: right;
+  font-family: 'Vazirmatn', 'IRANSans', 'Tahoma', sans-serif;
+  background: linear-gradient(135deg, #f8fafc 0%, #e3f0ff 100%);
+  min-height: 100vh;
+}
+
+
+/* Custom Bootstrap overrides will go in styles/custom.scss (to be created) */
